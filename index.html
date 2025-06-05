@@ -4,17 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Camero Dean - Portfolio</title>
-    <link rel="stylesheet" href="/portfolio/assets/styele.css">
+    <link rel="stylesheet" href="styele.css">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
         <div class="container">
             <h1>My Portfolio</h1>
-            <p>Bachelor of Science in Information Technology</p>
+            <p>Bachelore Science in Information Technology</p>
         </div>
     </header>
+    
+<!--
+    <div class="container">
+        <input id="input" type="text" maxlength="24" placeholder="Dean Camero">
+        <canvas id="canvas"></canvas>
+      </div>
+    -->
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+      </head>
 
     <nav>
         <ul>
@@ -27,29 +36,40 @@
     </nav>
  
     <section id="about" class="container">
+   <!-- Profile Image -->
         <div class="centerIMG">
             <div class="profile-image">
-                <img class="center-img" src="/portfolio/assets/img/dean.jpg" alt="Camero Dean" width="80px" height="80px">
+                <img class="center-img" src="c:\portfolio\assets\img\dean.png" alt="Camero Dean" width="80px" height="80px">
             </div>
+            
         </div>
         
         <div class="about-content">
+         
+            
+            <!-- About Text -->
             <div class="about-text">
-               <h2><strong>Hello, I'm</strong></h2> 
-               <h1>Dean Camero</h1>
-               <p class="typewriter text-2xl font-semibold">
-                   I'm a <span id="changing-text" class="text-blue-500 border-r-2 border-blue-500 animate-pulse"></span>
-               </p>
                <p>
-                   from Alaminos, Philippines, passionate about coding and creating real-world solutions. I work with <strong>C#, JavaScript, CSS, HTML, and Java etc.</strong> to build practical web applications. My recent project, DTRPR, is a daily time recording and payroll system designed to streamline employee management. I'm focused on becoming a full-stack developer and using technology to make a positive impact.
+                <h2><strong>Hello, I'm</strong> </h2> 
+                <h1>Dean Camero </h1>
+                
+  <p class="typewriter text-2xl font-semibold">
+    I'm a <span id="changing-text" class="text-blue-500 border-r-2 border-blue-500 animate-pulse"></span>
+  </p>
+  <div>
+  <p>
+                from Alaminos, Philippines, passionate about coding and creating real-world solutions. I work with <strong> C#, JavaScript, css, html, and Java etc. </strong> to build practical web applications. My recent project, DTRPR, is a daily time recording and payroll system designed to streamline employee management. I’m focused on becoming a full-stack developer and using technology to make a positive impact.
                </p>
-               <a href="/portfolio/assets/CV/CV.pdf" 
-                  download
-                  class="bg-purple-900 hover:bg-purple-800 text-white font-semibold py-2 px-5 rounded shadow-md inline-flex items-center gap-2 mt-4">
-                  <i class="fas fa-download"></i> Download CV
-               </a>
+            <!--h2>Download CV</h2-->
+    <a href="c:\portfolio\assets\Download CV\Dean_20250602_220943_0000.pdf" 
+   download
+   class="bg-purple-900 hover:bg-purple-800 text-white font-semibold py-2 px-5 rounded shadow-md inline-flex items-center gap-2 mt-4">
+  <i class="fas fa-download"></i> Download CV
+</a>
+
             </div>
     
+            <!-- Timeline -->
             <div class="timeline">
                 <div class="timeline-item">
                     <div class="timeline-icon">
@@ -57,7 +77,7 @@
                     </div>
                     <div class="timeline-content">
                         <h3>Started Coding</h3>
-                        <p>Began learning Java, C#, in 1st year in college.</p>
+                        <p>Began learning java, c#, in 1st year in college.</p>
                     </div>
                 </div>
                 <div class="timeline-item">
@@ -66,7 +86,7 @@
                     </div>
                     <div class="timeline-content">
                         <h3>First Project</h3>
-                        <p>Developed daily time record and payroll system using C#</p>
+                        <p>Developed daily time record and payroll system using c#</p>
                     </div>
                 </div>
                 <div class="timeline-item">
@@ -74,7 +94,7 @@
                         <i class="fas fa-trophy"></i>
                     </div>
                     <div class="timeline-content">
-                        <h3>Winner</h3>
+                        <h3> Winner</h3>
                         <p>Best in Collaboration and Manuscript</p>
                     </div>
                 </div>
@@ -94,74 +114,120 @@
     <section id="skills" class="skills">
         <div class="container">
             <div class="content">
-                <h2 data-aos="zoom-in-down" data-aos-delay="200" class="title aos-init aos-animate">Skills</h2>
-                <div class="skills aos-init aos-animate" data-aos="zoom-in-down" data-aos-delay="100">
-                    <div class="skill-box" data-percent="86">
-                        <img src="/portfolio/assets/skills/html.png" alt="HTML">
-                        <div class="skills-percent">
-                            <svg viewBox="0 0 36 36" class="circular-chart">
-                                <path class="bg" d="M18 2 a 16 16 0 1 1 0 32 a 16 16 0 1 1 0 -32"></path>
-                                <path class="progress" d="M18 2 a 16 16 0 1 1 0 32 a 16 16 0 1 1 0 -32"></path>
-                                <text x="18" y="20.5" class="percentage">0%</text>
-                            </svg>
-                        </div>
-                        <div class="skill-name">HTML</div>
-                    </div>
-                    <div class="skill-box" data-percent="84">
-                        <img src="/portfolio/assets/skills/css.png" alt="CSS">
-                        <div class="skills-percent">
-                            <svg viewBox="0 0 36 36">
-                                <path class="bg" d="M18 2 a 16 16 0 1 1 0 32 a 16 16 0 1 1 0 -32"></path>
-                                <path class="progress" style="--percent: 70; stroke-dashoffset: 30;" d="M18 2 a 16 16 0 1 1 0 32 a 16 16 0 1 1 0 -32"></path>
-                                <text x="18" y="20.5" class="percentage">70%</text>
-                            </svg>
-                        </div>
-                        <div class="skill-name">CSS</div>
-                    </div>
-                    <div class="skill-box" data-percent="75">
-                        <img src="/portfolio/assets/skills/js.png" alt="JavaScript">
-                        <div class="skills-percent">
-                            <svg viewBox="0 0 36 36">
-                                <path class="bg" d="M18 2 a 16 16 0 1 1 0 32 a 16 16 0 1 1 0 -32"></path>
-                                <path class="progress" style="--percent: 70; stroke-dashoffset: 30;" d="M18 2 a 16 16 0 1 1 0 32 a 16 16 0 1 1 0 -32"></path>
-                                <text x="18" y="20.5" class="percentage">70%</text>
-                            </svg>
-                        </div>
-                        <div class="skill-name">JavaScript</div>
-                    </div>
-                    <div class="skill-box" data-percent="80">
-                        <img src="/portfolio/assets/skills/java.png" alt="Java">
-                        <div class="skills-percent">
-                            <svg viewBox="0 0 36 36">
-                                <path class="bg" d="M18 2 a 16 16 0 1 1 0 32 a 16 16 0 1 1 0 -32"></path>
-                                <path class="progress" style="--percent: 80; stroke-dashoffset: 30;" d="M18 2 a 16 16 0 1 1 0 32 a 16 16 0 1 1 0 -32"></path>
-                                <text x="18" y="20.5" class="percentage">80%</text>
-                            </svg>
-                        </div>
-                        <div class="skill-name">Java</div>
-                    </div>
-                    <div class="skill-box" data-percent="85">
-                        <img src="/portfolio/assets/skills/c-sharp-c-icon-1822x2048-wuf3ijab.png" alt="C#">
-                        <div class="skills-percent">
-                            <svg viewBox="0 0 36 36">
-                                <path class="bg" d="M18 2 a 16 16 0 1 1 0 32 a 16 16 0 1 1 0 -32"></path>
-                                <path class="progress" style="--percent: 90; stroke-dashoffset: 30;" d="M18 2 a 16 16 0 1 1 0 32 a 16 16 0 1 1 0 -32"></path>
-                                <text x="18" y="20.5" class="percentage">90%</text>
-                            </svg>
-                        </div>
-                        <div class="skill-name">C#</div>
-                    </div>
+            <h2 data-aos="zoom-in-down" data-aos-delay="200" class="title aos-init aos-animate">Skills</h2>
+            <!-- ONE skills container -->
+            <div class="skills aos-init aos-animate" data-aos="zoom-in-down" data-aos-delay="100">
+            <!-- HTML -->
+            <div class="skill-box" data-percent="86">
+                <img src="c:\portfolio\assets\skills\html.png" alt="HTML">
+                <div class="skills-percent">
+                <svg viewBox="0 0 36 36" class="circular-chart">
+                <path class="bg" d="M18 2 a 16 16 0 1 1 0 32 a 16 16 0 1 1 0 -32"></path>
+                <path class="progress" d="M18 2 a 16 16 0 1 1 0 32 a 16 16 0 1 1 0 -32"></path>
+                <text x="18" y="20.5" class="percentage">0%</text>
+                </svg>
                 </div>
+                <div class="skill-name">HTML</div>
             </div>
-        </div>
+            <!-- CSS -->
+            <div class="skill-box" data-percent="84">
+                <img src="c:\portfolio\assets\skills\css.png" alt="CSS">
+                <div class="skills-percent">
+                <svg viewBox="0 0 36 36">
+                <path class="bg" d="M18 2 a 16 16 0 1 1 0 32 a 16 16 0 1 1 0 -32"></path>
+                <path class="progress" style="--percent: 70; stroke-dashoffset: 30;" d="M18 2 a 16 16 0 1 1 0 32 a 16 16 0 1 1 0 -32"></path>
+                <text x="18" y="20.5" class="percentage">70%</text>
+                </svg>
+                </div>
+                <div class="skill-name">CSS</div>
+            </div>
+            <!-- JavaScript -->
+            <div class="skill-box" data-percent="75">
+                <img src="c:\portfolio\assets\skills\js.png" alt="JavaScript">
+                <div class="skills-percent">
+                <svg viewBox="0 0 36 36">
+                <path class="bg" d="M18 2 a 16 16 0 1 1 0 32 a 16 16 0 1 1 0 -32"></path>
+                <path class="progress" style="--percent: 70; stroke-dashoffset: 30;" d="M18 2 a 16 16 0 1 1 0 32 a 16 16 0 1 1 0 -32"></path>
+                <text x="18" y="20.5" class="percentage">70%</text>
+                </svg>
+                </div>
+                <div class="skill-name">JavaScript</div>
+            </div>
+            <!-- Java -->
+            <div class="skill-box" data-percent="80">
+                <img src="c:\portfolio\assets\skills\java.png" alt="Java">
+                <div class="skills-percent">
+                <svg viewBox="0 0 36 36">
+                <path class="bg" d="M18 2 a 16 16 0 1 1 0 32 a 16 16 0 1 1 0 -32"></path>
+                <path class="progress" style="--percent: 80; stroke-dashoffset: 30;" d="M18 2 a 16 16 0 1 1 0 32 a 16 16 0 1 1 0 -32"></path>
+                <text x="18" y="20.5" class="percentage">80%</text>
+                </svg>
+                </div>
+                <div class="skill-name">Java</div>
+            </div>
+            <!-- C# -->
+            <div class="skill-box" data-percent="85">
+                <img src="c:\portfolio\assets\skills\c-sharp-c-icon-1822x2048-wuf3ijab.png" alt="C#">
+                <div class="skills-percent">
+                <svg viewBox="0 0 36 36">
+                <path class="bg" d="M18 2 a 16 16 0 1 1 0 32 a 16 16 0 1 1 0 -32"></path>
+                <path class="progress" style="--percent: 90; stroke-dashoffset: 30;" d="M18 2 a 16 16 0 1 1 0 32 a 16 16 0 1 1 0 -32"></path>
+                <text x="18" y="20.5" class="percentage">90%</text>
+                </svg>
+                </div>
+                <div class="skill-name">C#</div>
+            </div>
+            </div>
+            </div>
+            </div>
     </section>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+          const skillBoxes = document.querySelectorAll(".skill-box");
+      
+          skillBoxes.forEach(box => {
+            const percent = parseInt(box.getAttribute("data-percent"), 10);
+            const progressPath = box.querySelector(".progress");
+            const percentageText = box.querySelector(".percentage");
+      
+            // Calculate the circumference of the circle
+            const radius = 16; // As per the SVG path
+            const circumference = 2 * Math.PI * radius;
+      
+            // Set up the stroke-dasharray and initial stroke-dashoffset
+            progressPath.style.strokeDasharray = circumference;
+            progressPath.style.strokeDashoffset = circumference;
+      
+            // Animate the stroke-dashoffset to create the progress effect
+            setTimeout(() => {
+              const offset = circumference - (percent / 100) * circumference;
+              progressPath.style.strokeDashoffset = offset;
+            }, 500);
+      
+            // Animate the percentage text incrementally
+            let current = 0;
+            const interval = setInterval(() => {
+              if (current >= percent) {
+                clearInterval(interval);
+              } else {
+                current++;
+                percentageText.textContent = `${current}%`;
+              }
+            }, 20);
+          });
+        });
+      </script>
+      
+    
 
     <section id="projects" class="container">
         <h2>Projects</h2>
         <div class="projects-grid">
+            <!-- Project 1 -->
             <div class="project">
                 <div class="project-image">
-                    <img src="/portfolio/assets/img/project-logo.jpg" alt="Personal Portfolio">
+                    <img src="c:\portfolio\assets\img\ptoject logo.jpg" alt="Personal Portfolio">
+                    
                 </div>
                 <div class="project-content">
                     <h3>Personal Portfolio</h3>
@@ -173,9 +239,10 @@
                 </div>
             </div>
     
+            <!-- Project 2 -->
             <div class="project">
                 <div class="project-image">
-                    <img src="/portfolio/assets/img/logo-laptop.jpg" alt="Development Projects">
+                    <img src="c:\portfolio\assets\img\logo laptop.jpg" alt="Development Projects">
                 </div>
                 <div class="project-content">
                     <h3>Development Project</h3>
@@ -190,53 +257,134 @@
     </section>
     
     <section id="blogspot" class="blogs">
-        <h1>Blogspot</h1>
-        <div class="card-list">
-            <div class="card-container">
-                <div class="card">
-                    <div class="card-face card-front">
-                        <img src="/portfolio/assets/blogspot/ITP-pic.jpg" alt="Blog 1">
-                    </div>
-                    <div class="card-face card-back">
-                        <div class="back-content">
-                            <h2>ITP</h2>
-                            <p>My journey at STI Alaminos has been wonderful so far. I have learned on how to utilize programming languages that are first time for me to study. I have also learned how to work with a team and how to manage my time effectively.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Other blog cards follow the same pattern -->
+    <h1>Blogspot</h1>
+   <div class="card-list">
+    
+    <!-- CARD 1 -->
+    <div class="card-container">
+      <div class="card">
+        <div class="card-face card-front">
+          <img src="c:\portfolio\assets\blogspot\ITP pic.jpg" alt="Blog 1" />
         </div>
-    </section>
+        <div class="card-face card-back">
+          <div class="back-content">
+            <h2>ITP</h2>
+            <p>My journey at STI Alaminos has been wonderful so far. I have learned on how to utilize programming languages that are first time for me to study. I have also learned how to work with a team and how to manage my time effectively.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="card-container">
+      <div class="card">
+        <div class="card-face card-front">
+          <img src="c:\portfolio\assets\blogspot\Thesis Group.jpg" alt="Blog 2" />
+        </div>
+        <div class="card-face card-back">
+          <div class="back-content">
+            <h2>DTRPR Group</h2>
+            <p>I collaborated on our thesis project, DTRPR, with this group.  We worked together to create a beach resort system that makes it simple for the administration and employees to log in, calculate their pay, and effectively handle their data.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="card-container">
+      <div class="card">
+        <div class="card-face card-front">
+          <img src="c:\portfolio\assets\blogspot\ojt.jpg" alt="Blog 3" />
+        </div>
+        <div class="card-face card-back">
+          <div class="back-content">
+            <h2>On the Job Training</h2>
+            <p>My experience with On the Job Training (OJT) was priceless.  I was now able to put my theoretical knowledge to use in a practical situation.  Additionally, I had the chance to collaborate with experts and acquire useful skills that will help me in my future vocation.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 4 -->
+    <div class="card-container">
+      <div class="card">
+        <div class="card-face card-front">
+          <img src="c:\portfolio\assets\blogspot\Presentation of System.jpg" alt="Blog 4" />
+        </div>
+        <div class="card-face card-back">
+          <div class="back-content">
+            <h2>Presentation of System</h2>
+            <p>The event provided an excellent opportunity for us to showcase our project, Daily Time Record Payroll System, to the students and faculty of STI Alaminos. We presented its features and functionalities, demonstrating its potential to improve time management at beach resorts and accurately calculate employee salaries.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 5 -->
+    <div class="card-container">
+      <div class="card">
+        <div class="card-face card-front">
+          <img src="c:\portfolio\assets\blogspot\Friends.jpg" alt="Blog 5" />
+        </div>
+        <div class="card-face card-back">
+          <div class="back-content">
+            <h2>Friends</h2>
+            <p>I've made acquaintances at STI Alaminos with people that share my hobbies and sense of humor.  Between studying late into the night and celebrating our successes, we have a lot of memories together.  My time at STI Alaminos has been even more memorable because of these friendships.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 6 -->
+    <div class="card-container">
+      <div class="card">
+        <div class="card-face card-front">
+          <img src="c:\portfolio\assets\blogspot\Sports Fest.jpg" alt="Blog 6" />
+        </div>
+        <div class="card-face card-back">
+          <div class="back-content">
+            <h2>Sports Fest 2025</h2>
+            <p>My second sports fest at STI Alaminos was an exciting experience. I participated and played volleyball, and we won the championship. It was a memorable moment, and I also enjoyed cheering for friends from other courses.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   </selection>
 
     <section id="contact-form" class="container">
-        <form class="contact-form" id="contactForm" action="https://formsubmit.co/camerodean1@gmail.com" method="POST">
-            <h2>Contact Me</h2>
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
-            <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html">
-            <input type="hidden" name="_captcha" value="false">
-            <button type="submit">Send</button>
-            <div class="status" id="formStatus"></div>
-        </form>
-    </section>
+    <form class="contact-form" id="contactForm" action="https://formsubmit.co/camerodean1@gmail.com" method="POST">
+        <h2>Contact Me</h2>
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+    
+        <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html" />
+        <input type="hidden" name="_captcha" value="false" />
+    
+        <button type="submit">Send</button>
+        <div class="status" id="formStatus"></div>
+      </form>
 
-    <div class="social-icons">
-        <a href="https://github.com/DeanCamero" target="_blank" class="github">
-            <i class="fab fa-github"></i>
-        </a>
-        <a href="https://www.facebook.com/share/1AGLEszR8i/" target="_blank" class="facebook">
-            <i class="fab fa-facebook-f"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/dean-camero-716911363" target="_blank" class="linkedin">
-            <i class="fab fa-linkedin-in"></i>
-        </a>
-        <a href="https://www.instagram.com/definitelynot.kyosu?igsh=MTdpM2JmZ2R6eXN2dQ==" target="_blank" class="instagram">
-            <i class="fab fa-instagram"></i>
-        </a>
-    </div>
+</div>
+
+
+<a href="https://www.facebook.com/share/1DW8xCixw2/"></a>
+
+<div class="social-icons">
+    <a href="https://github.com/DeanCamero" target="_blank" class="github">
+        <i class="fab fa-github"></i>
+    </a>
+    <a href="https://www.facebook.com/share/1AGLEszR8i/" target="_blank" class="facebook">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/dean-camero-716911363" target="_blank" class="linkedin">
+      <i class="fab fa-linkedin-in"></i>
+    </a>
+    <a href="https://www.instagram.com/definitelynot.kyosu?igsh=MTdpM2JmZ2R6eXN2dQ==" target="_blank" class="instagram">
+      <i class="fab fa-instagram"></i>
+    </a>
+  </div>
 
     <footer>
         <p>&copy; 2025 Camero Dean. All rights reserved.</p>
